@@ -1,0 +1,5 @@
+---
+- hosts: prdx-haproxy116 
+
+  roles:
+  - role: lbserver
